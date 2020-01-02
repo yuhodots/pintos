@@ -30,6 +30,6 @@ UNIST 2019 2학기 Operating System 과목에서 구현하였던 PintOS 프로�
   - memory-mapped file 구현하기
   - swapping, ~~stack-growth~~ 구현하기
 
-###Stanford 원문
+### Stanford 원문
 
 - https://web.stanford.edu/~ouster/cgi-bin/cs140-spring18/pintos/pintos.html
