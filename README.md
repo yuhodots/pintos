@@ -12,22 +12,24 @@ UNIST 2019 2학기 Operating System 과목에서 구현하였던 PintOS 프로�
 
 아래는 프로젝트에 대한 개요와 Stanford 원문 링크입니다.
 
-### 프로젝트 개요
+## 프로젝트 개요
 
-- Project1 **Threads**
-  - timer를 활용하여 thread scheduling 구현하기
-  - highest priority scheduling 기법 사용
-- Project2 **User Programs**
-  - user input arguments를 kernel stack에 쌓기
-  - system call handler 구현하기
-  - user memory에 접근하여 system call number를 알아내고, 이에 맞는 system call 호출하기
-- Porject3 **Virtual Memory**
-  - supplemental page table, frame table 만들기
-  - 현재의 PintOS를 demanding paging (lazy loading) 방식으로 수정하기
-  - page fault handler 구현하기
-  - memory-mapped file 구현하기
-  - swapping, ~~stack-growth~~ 구현하기
+### Project1: Threads
+- timer를 활용하여 thread scheduling 구현하기
+- highest priority scheduling 기법 사용
 
-### Stanford 원문
+### Project2: User Programs
+- user input arguments를 kernel stack에 쌓기
+- system call handler 구현하기
+- user memory에 접근하여 system call number를 알아내고, 이에 맞는 system call 호출하기
 
-- https://web.stanford.edu/~ouster/cgi-bin/cs140-spring18/pintos/pintos.html
+### Porject3: Virtual Memory
+- supplemental page table, frame table 만들기
+- 현재의 PintOS를 demanding paging (lazy loading) 방식으로 수정하기
+- page fault handler 구현하기
+- memory-mapped file 구현하기
+- swapping, ~~stack-growth~~ 구현하기
+
+## Stanford 원문
+
+https://web.stanford.edu/~ouster/cgi-bin/cs140-spring18/pintos/pintos.html
